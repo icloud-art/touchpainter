@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56B143761FB70F830004AB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B143751FB70F830004AB7F /* main.m */; };
+		56B143791FB70F830004AB7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B143781FB70F830004AB7F /* AppDelegate.m */; };
+		56B143811FB70F830004AB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B143801FB70F830004AB7F /* Assets.xcassets */; };
+		56B143841FB70F830004AB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B143821FB70F830004AB7F /* LaunchScreen.storyboard */; };
+		56B1438F1FB70F840004AB7F /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B1438E1FB70F840004AB7F /* TouchPainterTests.m */; };
+		56B1439A1FB70F840004AB7F /* TouchPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B143991FB70F840004AB7F /* TouchPainterUITests.m */; };
+		56D3D75F1FB7133A00366D80 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D3D75E1FB7133A00366D80 /* MainViewController.m */; };
+		C457D4DD6B6D1E7FD38850E5 /* libPods-TouchPainter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B6C70788B24FFD43210F97 /* libPods-TouchPainter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56B1438B1FB70F840004AB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B143691FB70F830004AB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B143701FB70F830004AB7F;
+			remoteInfo = TouchPainter;
+		};
+		56B143961FB70F840004AB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B143691FB70F830004AB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B143701FB70F830004AB7F;
+			remoteInfo = TouchPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51B6C70788B24FFD43210F97 /* libPods-TouchPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchPainter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B143711FB70F830004AB7F /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B143751FB70F830004AB7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56B143771FB70F830004AB7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56B143781FB70F830004AB7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56B143801FB70F830004AB7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56B143831FB70F830004AB7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56B143851FB70F830004AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B1438A1FB70F840004AB7F /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B1438E1FB70F840004AB7F /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
+		56B143901FB70F840004AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B143951FB70F840004AB7F /* TouchPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B143991FB70F840004AB7F /* TouchPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterUITests.m; sourceTree = "<group>"; };
+		56B1439B1FB70F840004AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D3D75D1FB7133A00366D80 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		56D3D75E1FB7133A00366D80 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CF8872593FF1194D3143BB96 /* Pods-TouchPainter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.release.xcconfig"; sourceTree = "<group>"; };
+		EA75F81901AF6AA5D631CB4D /* Pods-TouchPainter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B1436E1FB70F830004AB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C457D4DD6B6D1E7FD38850E5 /* libPods-TouchPainter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143871FB70F840004AB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143921FB70F840004AB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B143681FB70F830004AB7F = {
+			isa = PBXGroup;
+			children = (
+				56B143731FB70F830004AB7F /* TouchPainter */,
+				56B1438D1FB70F840004AB7F /* TouchPainterTests */,
+				56B143981FB70F840004AB7F /* TouchPainterUITests */,
+				56B143721FB70F830004AB7F /* Products */,
+				A275E5383F5D52228CA02F38 /* Pods */,
+				7AADCA367A3C5DE4FB9C7305 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56B143721FB70F830004AB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B143711FB70F830004AB7F /* TouchPainter.app */,
+				56B1438A1FB70F840004AB7F /* TouchPainterTests.xctest */,
+				56B143951FB70F840004AB7F /* TouchPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B143731FB70F830004AB7F /* TouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				56B143771FB70F830004AB7F /* AppDelegate.h */,
+				56B143781FB70F830004AB7F /* AppDelegate.m */,
+				56D3D75D1FB7133A00366D80 /* MainViewController.h */,
+				56D3D75E1FB7133A00366D80 /* MainViewController.m */,
+				56B143801FB70F830004AB7F /* Assets.xcassets */,
+				56B143821FB70F830004AB7F /* LaunchScreen.storyboard */,
+				56B143851FB70F830004AB7F /* Info.plist */,
+				56B143741FB70F830004AB7F /* Supporting Files */,
+			);
+			path = TouchPainter;
+			sourceTree = "<group>";
+		};
+		56B143741FB70F830004AB7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B143751FB70F830004AB7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56B1438D1FB70F840004AB7F /* TouchPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				56B1438E1FB70F840004AB7F /* TouchPainterTests.m */,
+				56B143901FB70F840004AB7F /* Info.plist */,
+			);
+			path = TouchPainterTests;
+			sourceTree = "<group>";
+		};
+		56B143981FB70F840004AB7F /* TouchPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56B143991FB70F840004AB7F /* TouchPainterUITests.m */,
+				56B1439B1FB70F840004AB7F /* Info.plist */,
+			);
+			path = TouchPainterUITests;
+			sourceTree = "<group>";
+		};
+		7AADCA367A3C5DE4FB9C7305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B6C70788B24FFD43210F97 /* libPods-TouchPainter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A275E5383F5D52228CA02F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA75F81901AF6AA5D631CB4D /* Pods-TouchPainter.debug.xcconfig */,
+				CF8872593FF1194D3143BB96 /* Pods-TouchPainter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B143701FB70F830004AB7F /* TouchPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B1439E1FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainter" */;
+			buildPhases = (
+				5195A388DF4BBE78FFF9930F /* [CP] Check Pods Manifest.lock */,
+				56B1436D1FB70F830004AB7F /* Sources */,
+				56B1436E1FB70F830004AB7F /* Frameworks */,
+				56B1436F1FB70F830004AB7F /* Resources */,
+				23AE03F44C4BDD25BD8351BF /* [CP] Embed Pods Frameworks */,
+				010892148E09762683D7D054 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPainter;
+			productName = TouchPainter;
+			productReference = 56B143711FB70F830004AB7F /* TouchPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56B143891FB70F840004AB7F /* TouchPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B143A11FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainterTests" */;
+			buildPhases = (
+				56B143861FB70F840004AB7F /* Sources */,
+				56B143871FB70F840004AB7F /* Frameworks */,
+				56B143881FB70F840004AB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B1438C1FB70F840004AB7F /* PBXTargetDependency */,
+			);
+			name = TouchPainterTests;
+			productName = TouchPainterTests;
+			productReference = 56B1438A1FB70F840004AB7F /* TouchPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56B143941FB70F840004AB7F /* TouchPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B143A41FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainterUITests" */;
+			buildPhases = (
+				56B143911FB70F840004AB7F /* Sources */,
+				56B143921FB70F840004AB7F /* Frameworks */,
+				56B143931FB70F840004AB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B143971FB70F840004AB7F /* PBXTargetDependency */,
+			);
+			name = TouchPainterUITests;
+			productName = TouchPainterUITests;
+			productReference = 56B143951FB70F840004AB7F /* TouchPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B143691FB70F830004AB7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Charles;
+				TargetAttributes = {
+					56B143701FB70F830004AB7F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ATT8LCF7P5;
+						ProvisioningStyle = Automatic;
+					};
+					56B143891FB70F840004AB7F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56B143701FB70F830004AB7F;
+					};
+					56B143941FB70F840004AB7F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56B143701FB70F830004AB7F;
+					};
+				};
+			};
+			buildConfigurationList = 56B1436C1FB70F830004AB7F /* Build configuration list for PBXProject "TouchPainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56B143681FB70F830004AB7F;
+			productRefGroup = 56B143721FB70F830004AB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B143701FB70F830004AB7F /* TouchPainter */,
+				56B143891FB70F840004AB7F /* TouchPainterTests */,
+				56B143941FB70F840004AB7F /* TouchPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B1436F1FB70F830004AB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B143841FB70F830004AB7F /* LaunchScreen.storyboard in Resources */,
+				56B143811FB70F830004AB7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143881FB70F840004AB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143931FB70F840004AB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010892148E09762683D7D054 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23AE03F44C4BDD25BD8351BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5195A388DF4BBE78FFF9930F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B1436D1FB70F830004AB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B143791FB70F830004AB7F /* AppDelegate.m in Sources */,
+				56D3D75F1FB7133A00366D80 /* MainViewController.m in Sources */,
+				56B143761FB70F830004AB7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143861FB70F840004AB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B1438F1FB70F840004AB7F /* TouchPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B143911FB70F840004AB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B1439A1FB70F840004AB7F /* TouchPainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56B1438C1FB70F840004AB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B143701FB70F830004AB7F /* TouchPainter */;
+			targetProxy = 56B1438B1FB70F840004AB7F /* PBXContainerItemProxy */;
+		};
+		56B143971FB70F840004AB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B143701FB70F830004AB7F /* TouchPainter */;
+			targetProxy = 56B143961FB70F840004AB7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56B143821FB70F830004AB7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B143831FB70F830004AB7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56B1439C1FB70F840004AB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56B1439D1FB70F840004AB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56B1439F1FB70F840004AB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA75F81901AF6AA5D631CB4D /* Pods-TouchPainter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATT8LCF7P5;
+				INFOPLIST_FILE = TouchPainter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		56B143A01FB70F840004AB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8872593FF1194D3143BB96 /* Pods-TouchPainter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATT8LCF7P5;
+				INFOPLIST_FILE = TouchPainter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		56B143A21FB70F840004AB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
+			};
+			name = Debug;
+		};
+		56B143A31FB70F840004AB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
+			};
+			name = Release;
+		};
+		56B143A51FB70F840004AB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchPainter;
+			};
+			name = Debug;
+		};
+		56B143A61FB70F840004AB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charles.TouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B1436C1FB70F830004AB7F /* Build configuration list for PBXProject "TouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1439C1FB70F840004AB7F /* Debug */,
+				56B1439D1FB70F840004AB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B1439E1FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1439F1FB70F840004AB7F /* Debug */,
+				56B143A01FB70F840004AB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B143A11FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B143A21FB70F840004AB7F /* Debug */,
+				56B143A31FB70F840004AB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B143A41FB70F840004AB7F /* Build configuration list for PBXNativeTarget "TouchPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B143A51FB70F840004AB7F /* Debug */,
+				56B143A61FB70F840004AB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B143691FB70F830004AB7F /* Project object */;
+}

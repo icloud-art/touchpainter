@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+def pods
+pod 'Masonry'
+end
+
+target 'TouchPainter' do
+pods
+end
