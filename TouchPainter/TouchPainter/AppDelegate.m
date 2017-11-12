@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "CanvasViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +20,9 @@
 
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    MainViewController *mainView = [[MainViewController alloc]init];
-    UINavigationController *navCtrl = [[UINavigationController alloc]initWithRootViewController:mainView];
+//    MainViewController *mainView = [[MainViewController alloc]init];
+    CanvasViewController *canvasView = [[CanvasViewController alloc]init];
+    UINavigationController *navCtrl = [[UINavigationController alloc]initWithRootViewController:canvasView];
     self.window.rootViewController = navCtrl;
     [self.window makeKeyAndVisible];
     

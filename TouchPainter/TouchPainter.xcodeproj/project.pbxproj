@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564F9E741FB7EDB200895930 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E731FB7EDB200895930 /* Vertex.m */; };
+		564F9E771FB7EDC000895930 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E761FB7EDC000895930 /* Dot.m */; };
+		564F9E7A1FB7EDCD00895930 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E791FB7EDCD00895930 /* Stroke.m */; };
+		564F9E7E1FB8428000895930 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E7D1FB8428000895930 /* CanvasView.m */; };
+		564F9E811FB842F700895930 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E801FB842F700895930 /* PaperCanvasView.m */; };
+		564F9E841FB8430C00895930 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E831FB8430C00895930 /* ClothCanvasView.m */; };
+		564F9E871FB8451C00895930 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E861FB8451C00895930 /* CanvasViewGenerator.m */; };
+		564F9E8A1FB8453D00895930 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E891FB8453D00895930 /* PaperCanvasViewGenerator.m */; };
+		564F9E8D1FB8455800895930 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E8C1FB8455800895930 /* ClothCanvasViewGenerator.m */; };
+		564F9E911FB8474A00895930 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564F9E901FB8474A00895930 /* CanvasViewController.m */; };
 		56B143761FB70F830004AB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B143751FB70F830004AB7F /* main.m */; };
 		56B143791FB70F830004AB7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B143781FB70F830004AB7F /* AppDelegate.m */; };
 		56B143811FB70F830004AB7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B143801FB70F830004AB7F /* Assets.xcassets */; };
@@ -36,6 +46,27 @@
 
 /* Begin PBXFileReference section */
 		51B6C70788B24FFD43210F97 /* libPods-TouchPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchPainter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564F9E721FB7EDB200895930 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		564F9E731FB7EDB200895930 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		564F9E751FB7EDC000895930 /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		564F9E761FB7EDC000895930 /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		564F9E781FB7EDCD00895930 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		564F9E791FB7EDCD00895930 /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		564F9E7C1FB8428000895930 /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		564F9E7D1FB8428000895930 /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		564F9E7F1FB842F700895930 /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		564F9E801FB842F700895930 /* PaperCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		564F9E821FB8430C00895930 /* ClothCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		564F9E831FB8430C00895930 /* ClothCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		564F9E851FB8451C00895930 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		564F9E861FB8451C00895930 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		564F9E881FB8453D00895930 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		564F9E891FB8453D00895930 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		564F9E8B1FB8455800895930 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		564F9E8C1FB8455800895930 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		564F9E8F1FB8474A00895930 /* CanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		564F9E901FB8474A00895930 /* CanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		564F9E921FB8492A00895930 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		56B143711FB70F830004AB7F /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B143751FB70F830004AB7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56B143771FB70F830004AB7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +82,7 @@
 		56B1439B1FB70F840004AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56D3D75D1FB7133A00366D80 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		56D3D75E1FB7133A00366D80 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		56E24D871FB7E81B008A7A6C /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		CF8872593FF1194D3143BB96 /* Pods-TouchPainter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.release.xcconfig"; sourceTree = "<group>"; };
 		EA75F81901AF6AA5D631CB4D /* Pods-TouchPainter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +113,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564F9E711FB7EDA000895930 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				564F9E721FB7EDB200895930 /* Vertex.h */,
+				564F9E731FB7EDB200895930 /* Vertex.m */,
+				564F9E751FB7EDC000895930 /* Dot.h */,
+				564F9E761FB7EDC000895930 /* Dot.m */,
+				564F9E781FB7EDCD00895930 /* Stroke.h */,
+				564F9E791FB7EDCD00895930 /* Stroke.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		564F9E7B1FB8426B00895930 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				564F9E7C1FB8428000895930 /* CanvasView.h */,
+				564F9E7D1FB8428000895930 /* CanvasView.m */,
+				564F9E7F1FB842F700895930 /* PaperCanvasView.h */,
+				564F9E801FB842F700895930 /* PaperCanvasView.m */,
+				564F9E821FB8430C00895930 /* ClothCanvasView.h */,
+				564F9E831FB8430C00895930 /* ClothCanvasView.m */,
+				564F9E851FB8451C00895930 /* CanvasViewGenerator.h */,
+				564F9E861FB8451C00895930 /* CanvasViewGenerator.m */,
+				564F9E881FB8453D00895930 /* PaperCanvasViewGenerator.h */,
+				564F9E891FB8453D00895930 /* PaperCanvasViewGenerator.m */,
+				564F9E8B1FB8455800895930 /* ClothCanvasViewGenerator.h */,
+				564F9E8C1FB8455800895930 /* ClothCanvasViewGenerator.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		564F9E8E1FB8473900895930 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				564F9E8F1FB8474A00895930 /* CanvasViewController.h */,
+				564F9E901FB8474A00895930 /* CanvasViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		56B143681FB70F830004AB7F = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +179,10 @@
 		56B143731FB70F830004AB7F /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
+				564F9E8E1FB8473900895930 /* Controllers */,
+				564F9E7B1FB8426B00895930 /* Views */,
+				564F9E711FB7EDA000895930 /* Models */,
+				56E24D861FB7E801008A7A6C /* Protocol */,
 				56B143771FB70F830004AB7F /* AppDelegate.h */,
 				56B143781FB70F830004AB7F /* AppDelegate.m */,
 				56D3D75D1FB7133A00366D80 /* MainViewController.h */,
@@ -122,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				56B143751FB70F830004AB7F /* main.m */,
+				564F9E921FB8492A00895930 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +220,14 @@
 				56B1439B1FB70F840004AB7F /* Info.plist */,
 			);
 			path = TouchPainterUITests;
+			sourceTree = "<group>";
+		};
+		56E24D861FB7E801008A7A6C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				56E24D871FB7E81B008A7A6C /* Mark.h */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		7AADCA367A3C5DE4FB9C7305 /* Frameworks */ = {
@@ -226,7 +312,7 @@
 		56B143691FB70F830004AB7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Charles;
 				TargetAttributes = {
 					56B143701FB70F830004AB7F = {
@@ -345,9 +431,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564F9E871FB8451C00895930 /* CanvasViewGenerator.m in Sources */,
+				564F9E8D1FB8455800895930 /* ClothCanvasViewGenerator.m in Sources */,
 				56B143791FB70F830004AB7F /* AppDelegate.m in Sources */,
+				564F9E911FB8474A00895930 /* CanvasViewController.m in Sources */,
+				564F9E741FB7EDB200895930 /* Vertex.m in Sources */,
+				564F9E8A1FB8453D00895930 /* PaperCanvasViewGenerator.m in Sources */,
+				564F9E841FB8430C00895930 /* ClothCanvasView.m in Sources */,
 				56D3D75F1FB7133A00366D80 /* MainViewController.m in Sources */,
+				564F9E811FB842F700895930 /* PaperCanvasView.m in Sources */,
+				564F9E771FB7EDC000895930 /* Dot.m in Sources */,
+				564F9E7E1FB8428000895930 /* CanvasView.m in Sources */,
 				56B143761FB70F830004AB7F /* main.m in Sources */,
+				564F9E7A1FB7EDCD00895930 /* Stroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +500,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -412,7 +510,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,6 +527,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TouchPainter/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -453,7 +557,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -461,7 +567,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -472,6 +582,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TouchPainter/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

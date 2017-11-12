@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  TouchPainter
+//
+//  Created by Charles on 2017/11/12.
+//  Copyright © 2017年 Charles. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
